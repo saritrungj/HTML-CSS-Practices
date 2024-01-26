@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Div Element</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <style>
+    p {
+      font-family: Roboto, Arial;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .search-bar {
+      display: block;
+    }
+
+    .video-title {
+      margin-top: 0;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      margin-bottom: 12px;
+    }
+
+    .thumbnail {
+      width: 100%;
+      object-fit: contain;
+      border-radius: 7px;
+    }
+
+    .video-stats,
+    .video-author {
+      font-size: 12px;
+      color: rgb(96, 96, 96);
+    }
+
+    .video-info-grid {
+      display: grid;
+      grid-template-columns: 50px 1fr;
+    }
+
+    .profile-picture {
+      width: 40px;
+      border-radius: 50px;
+    }
+
+    .thumbnail-row {
+      margin-bottom: 20px;
+    }
+
+    .video-author {
+      margin-bottom: 6px;
+    }
+    
+    .video-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <input type="text" placeholder="Search" class="search-bar">
+  <div class="video-grid">
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="img/thumbnail/thumbnail-2.webp" alt="">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="img/profile-picture/author-1.jpg" alt="">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            กฎการเงินทำพิษ ‘เอฟเวอร์ตัน-ฟอเรสต์’ ชะตาที่แตกต่างจากแมนฯ ซิตี้-เชลซี | On The Rock - Case 47
+          </p>
+          <p class="video-author">
+            Mainstand Thailand
+          </p>
+          <p class="video-stats">
+            88K views &#183; 16 hours ago
+          </p>
+        </div>
+      </div>
+    </div>  
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="img/thumbnail/thumbnail-1.webp" alt="">
+      </div>
+      <div class=" video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="img/profile-picture/author-1.jpg" alt="">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+             Football : ไขคำตอบจากการวิจัย ทำไมเดอ บรอยน์ ให้บอลแม่นมาก | Footballista EP.868
+          </p>
+          <p class="video-author">
+            Mainstand Thailand
+          </p>
+          <p class="video-stats">
+            7.3K views &#183; 2 hours ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="img/thumbnail/thumbnail-3.webp" alt="">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="img/profile-picture/author-2.jpg" alt="">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Tarik Reacts to NRG vs Paper Rex | LOSER GOES HOME | VCT Masters Tokyo 2023
+          </p>
+          <p class="video-author">
+            tarik
+          </p>
+          <p class="video-stats">
+            740K views &#183; 7 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="img/thumbnail/thumbnail-4.webp" alt="">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="img/profile-picture/author-3.jpg" alt="">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Fantasy Medieval/Tavern Music - Relaxing Music for Deep Sleep
+          </p>
+          <p class="video-author">
+            The Soul of Wind
+          </p>
+          <p class="video-stats">
+            1.4M views &#183; 2 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="img/thumbnail/thumbnail-5.webp" alt="">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="img/profile-picture/author-4.jpg" alt="">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            ประวัติวิวัฒนาการ CPU Intel และ AMD ใน 18 นาที
+          </p>
+          <p class="video-author">
+            Ranviee
+          </p>
+          <p class="video-stats">
+            39K views &#183; 4 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="img/thumbnail/thumbnail-6.webp" alt="">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="img/profile-picture/author-5.jpg" alt="">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            2 ปีผ่านไป Windows 11 ก็ยังคงไม่ได้รับความนิยม
+          </p>
+          <p class="video-author">
+            OverclockZoneTV
+          </p>
+          <p class="video-stats">
+            24K views &#183; 3 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
